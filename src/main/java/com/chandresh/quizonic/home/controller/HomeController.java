@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/")
 public class HomeController {
 
-    @RequestMapping("/")
-    public ResponseEntity<String> home() {
-        return ResponseEntity.ok("Welcome to Quizonic!");
-    }
+  @RequestMapping("/")
+  public ResponseEntity<String> home() {
+    return ResponseEntity.ok("Welcome to Quizonic!");
+  }
 }
