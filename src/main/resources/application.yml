@@ -9,15 +9,6 @@ spring:
             client-id: ${GOOGLE_CLIENT_ID}
             client-secret: ${GOOGLE_CLIENT_SECRET}
             scope: profile, email
-  datasource:
-    url: jdbc:postgresql://localhost:5432/quizonic
-    username: sonikav
-    password: 
-    driver-class-name: org.postgresql.Driver
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: true
 
 server:
   port: 8080
